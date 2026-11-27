@@ -1,4 +1,4 @@
-import { PanoViewer } from '/js/pano-viewer.js';
+import { PanoViewer } from './pano-viewer.js';
 
 const loginScreen = document.getElementById('login-screen');
 const adminDashboard = document.getElementById('admin-dashboard');
@@ -27,10 +27,10 @@ function slugify(str) {
 
 function resolveAssetUrl(path) {
   if (!path) return '';
-  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:') || path.startsWith('/')) {
+  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) {
     return path;
   }
-  return '/' + path;
+  return path.replace(/^\/+/, '');
 }
 
 function getActiveProject() {
@@ -98,7 +98,7 @@ async function enterDashboard() {
 
 // ---------- Data Load & Save ----------
 async function loadProjects() {
-  const res = await fetch('/data/projects.json?t=' + Date.now());
+  const res = await fetch('data/projects.json?t=' + Date.now());
   const data = await res.json();
   state = { projects: data.projects || [] };
   activeProjectIdx = state.projects.length ? 0 : -1;
@@ -187,7 +187,7 @@ function renderProjectForm() {
   document.getElementById('proj-desc').value = proj.description || '';
   document.getElementById('proj-thumb-path').textContent = proj.thumbnail || 'Belum ada';
   document.getElementById('proj-floorplan-path').textContent = proj.floorplan || 'Belum ada';
-  document.getElementById('btn-preview-project').href = `/p/${encodeURIComponent(proj.slug || proj.id)}`;
+  document.getElementById('btn-preview-project').href = `viewer.html?p=${encodeURIComponent(proj.slug || proj.id)}`;
 
   const defaultSelect = document.getElementById('proj-default-room');
   defaultSelect.innerHTML = (proj.rooms || [])
@@ -432,7 +432,7 @@ function bindEvents() {
       proj[key] = transform ? transform(e.target.value) : e.target.value;
       if (key === 'name' || key === 'slug') {
         renderProjectList();
-        document.getElementById('btn-preview-project').href = `/p/${encodeURIComponent(proj.slug || proj.id)}`;
+        document.getElementById('btn-preview-project').href = `viewer.html?p=${encodeURIComponent(proj.slug || proj.id)}`;
       }
     });
   };

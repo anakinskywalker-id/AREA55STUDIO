@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <!-- Login Screen -->
@@ -29,7 +29,7 @@
         <p id="login-error" style="color:#fca5a5; font-size:0.84rem; display:none;"></p>
       </form>
       <div style="margin-top:18px; text-align:center;">
-        <a href="/" style="font-size:0.84rem; color:var(--text-secondary);">← Kembali ke Katalog Projek</a>
+        <a href="index.html" style="font-size:0.84rem; color:var(--text-secondary);">← Kembali ke Katalog Projek</a>
       </div>
     </div>
   </div>
@@ -43,7 +43,7 @@
           <span>Admin Panel — Manajemen Projek</span>
         </div>
         <div style="display:flex; gap:10px; flex-wrap:wrap;">
-          <a href="/" class="btn btn-sm">Lihat Katalog</a>
+          <a href="index.html" class="btn btn-sm">Lihat Katalog</a>
           <button id="btn-export-json" class="btn btn-sm">⬇ Export JSON</button>
           <button id="btn-save-all" class="btn btn-primary btn-sm">💾 Simpan Semua ke Server / GitHub</button>
           <button id="btn-logout" class="btn btn-danger btn-sm">Keluar</button>
@@ -188,6 +188,6 @@
   </div>
 
   <div id="toast" class="toast"></div>
-  <script type="module" src="/js/admin-app.js"></script>
+  <script type="module" src="js/admin-app.js"></script>
 </body>
 </html>

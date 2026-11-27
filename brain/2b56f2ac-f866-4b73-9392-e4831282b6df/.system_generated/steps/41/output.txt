@@ -1,5 +1,0 @@
-
-The command exited with code 0.
-Output:
-im1: (266, 476) im2: (768, 1376)
-

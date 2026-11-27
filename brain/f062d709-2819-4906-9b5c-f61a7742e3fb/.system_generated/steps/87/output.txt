@@ -1,1 +1,0 @@
-Code executed successfully: ACS_Stone_Chiseled and ACS_Stone_Groove created successfully.

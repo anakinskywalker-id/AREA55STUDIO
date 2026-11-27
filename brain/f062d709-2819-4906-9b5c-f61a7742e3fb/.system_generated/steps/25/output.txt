@@ -1,2 +1,0 @@
-Code executed successfully: Viewport view_location: <Vector (3939.2632, 5196.3921, 234.3464)>, view_distance: 4.7832794189453125, view_perspective: CAMERA
-Viewport view_location: <Vector (3937.5903, 5193.0967, 237.5009)>, view_distance: 10.982588768005371, view_perspective: CAMERA

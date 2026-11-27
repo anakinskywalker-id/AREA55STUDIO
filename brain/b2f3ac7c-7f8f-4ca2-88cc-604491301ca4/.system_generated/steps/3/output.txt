@@ -1,3 +1,0 @@
-Scene 'Scene' | empty | active none | selected none | mode OBJECT
-
-Showing 0 of 0 (name | type | location | size | hidden | children):

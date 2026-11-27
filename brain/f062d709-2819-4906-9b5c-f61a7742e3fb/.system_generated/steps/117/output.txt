@@ -1,2 +1,0 @@
-Tiles left to right, top to bottom: front, three_quarter. Framed 1 objects, 0.12 x 3.4 x 2.72 m across, centred at [3936.0, 5195.46, 235.95].
-[Resource offloaded to file:///C:/Users/Ust.%20Udin/.gemini/antigravity/brain/f062d709-2819-4906-9b5c-f61a7742e3fb/.system_generated/steps/117/media_0.png]

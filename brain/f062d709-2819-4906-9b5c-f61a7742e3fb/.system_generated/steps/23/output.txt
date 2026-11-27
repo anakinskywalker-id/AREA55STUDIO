@@ -1,5 +1,0 @@
-Code executed successfully: V1 New X: 3920.42 to 3978.67
-V1 New Y: 5189.03 to 5199.67
-V1 New Z: 232.19 to 241.29
-Active object: Bathroom_Details_Towels-Rail_03.003
-Active location: <Vector (3941.5225, 5198.0454, 235.4239)>, world matrix translation: <Vector (3941.5225, 5198.0454, 235.4239)>

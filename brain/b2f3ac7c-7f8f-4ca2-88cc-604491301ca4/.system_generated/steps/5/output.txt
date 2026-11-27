@@ -1,2 +1,0 @@
-Code executed successfully: Kabinet buku berhasil dibuat!
-Dimensi: 80cm x 35cm x 192cm

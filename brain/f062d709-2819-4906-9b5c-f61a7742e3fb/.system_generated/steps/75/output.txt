@@ -1,6 +1,0 @@
-Code executed successfully: Material wall_surface: use_nodes=True
-  Nodes: ['Principled BSDF', 'Material Output']
-Material Decor_Panel_Rock_Metal_Light_Grey_2k: use_nodes=True
-  Nodes: ['Material Output', 'Invert', 'Image Texture.001', 'Image Texture.002', 'Normal Map.001', 'Mapping', 'Texture Coordinate', 'Image Texture', 'Hue Saturation Value', 'Principled BSDF.001']
-Material Tiles_Stone_01: use_nodes=True
-  Nodes: ['Image Texture', 'Image Texture.002', 'FLOW_Procedural Tiles Basis', 'Image Texture.001', 'FLOW_Procedural Tiles Shader', 'Material Output', 'ColorRamp']

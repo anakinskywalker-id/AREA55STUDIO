@@ -1,4 +1,0 @@
-Command exited with code 1.
-
-Command output:
-INFO: Could not find files for the given pattern(s).

@@ -1,1 +1,0 @@
-Code executed successfully: Camera, lighting, dan scene setup selesai!

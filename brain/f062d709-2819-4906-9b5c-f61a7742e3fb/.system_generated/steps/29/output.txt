@@ -1,1 +1,0 @@
-Code executed successfully: t1 loc: <Vector (3937.9924, 5198.0454, 235.4239)> dim: <Vector (0.2306, 0.1716, 0.1823)> rot: <Euler (x=0.0000, y=-0.0000, z=-1.5708), order='XYZ'>

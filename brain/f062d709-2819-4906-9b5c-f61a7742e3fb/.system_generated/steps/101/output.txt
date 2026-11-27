@@ -1,2 +1,0 @@
-Code executed successfully: Wall successfully created: ACS_Dinding_Motif_Batu in ['ACS']
-Location: <Vector (3936.0344, 5195.4644, 234.5937)>, Dimensions: <Vector (3.3960, 0.1220, 2.7160)>

@@ -1,2 +1,0 @@
-Code executed successfully: Dark pixels X range: 41 982
-Dark pixels Y range: 64 585

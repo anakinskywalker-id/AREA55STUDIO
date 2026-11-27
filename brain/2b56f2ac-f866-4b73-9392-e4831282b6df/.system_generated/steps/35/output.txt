@@ -1,6 +1,0 @@
-
-The command exited with code 0.
-Output:
-Top-left 10x10 color: (217, 217, 217, 255)
-Border: (217, 217, 217, 255) (217, 217, 217, 255) (217, 217, 217, 255) (217, 217, 217, 255)
-

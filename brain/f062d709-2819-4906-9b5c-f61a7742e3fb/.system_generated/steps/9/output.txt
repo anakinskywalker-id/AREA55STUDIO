@@ -1,4 +1,0 @@
-Code executed successfully: Unit system: METRIC
-Unit scale: 1.0
-Collections: ['ACS', 'BATU', 'CAM', 'Decorations_Decor-Sets_Living_08', 'Dining_Glassware_Glass-Cocktail_02', 'Food-Drink_Alcohol_Glass-Wine-Red_02', 'FUR', 'FUR 1', 'Geo-Scatter', 'Geo-Scatter Export', 'Geo-Scatter Extra', 'Geo-Scatter Geonode', 'Geo-Scatter Import', 'Geo-Scatter Ins Col', 'Geo-Scatter Placeholders', 'Geo-Scatter Surfaces', 'Geo-Scatter User Col', 'gravel', 'ins_col : garvelz', 'ins_col : Gravel', 'LAYER 1', 'LIGHT', 'LIGHT 1', 'LIGHT 2', 'LIGHT 3', 'LIGHT 4', 'LIGHT 5', 'MAIN', 'PAKUPAKUAN', 'psy : garvelz', 'psy : Gravel', 'RAMBAT', 'RigidBodyWorld', 'SEMAK', 'V1', 'V2', 'VEG', 'VEG 4', 'VEG 6']
-3D cursor: <Vector (3936.0344, 5195.4644, 234.5937)>

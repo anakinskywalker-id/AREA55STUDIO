@@ -1,1 +1,0 @@
-Code executed successfully: Walls, doors, windows, and stairs created successfully.

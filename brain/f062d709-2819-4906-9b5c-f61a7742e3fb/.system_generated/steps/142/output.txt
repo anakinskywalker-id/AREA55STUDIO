@@ -1,4 +1,0 @@
-Code executed successfully: ACS_DINDING Center: <Vector (3937.2925, 5190.7798, 237.5126)>
-Camera: (u=0.34, v=0.58, depth=10.27)
-Camera.001: (u=0.37, v=0.57, depth=8.55)
-Camera.002: (u=0.28, v=0.62, depth=5.21)

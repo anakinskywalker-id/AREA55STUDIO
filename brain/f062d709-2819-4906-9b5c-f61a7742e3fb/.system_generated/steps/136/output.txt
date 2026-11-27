@@ -1,6 +1,0 @@
-Code executed successfully: Target bounds:
-  X: 3937.1201 to 3937.4600 (thick = 0.3398)
-  Y: 5189.0298 to 5192.5298 (width = 3.5000)
-  Z: 234.5876 to 240.4376 (height = 5.8500)
-DINDING has been hidden from viewport and render.
-Created ACS_DINDING in collection ACS.

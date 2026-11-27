@@ -1,9 +1,0 @@
-Using prompt: Modify this CAD drawing according to these strict styling rules:
-1. Walls and structural columns: Must be thick, solid pure black (#000000) poche fill with no outline gaps and zero textures.
-2. Stairs: The staircase steps and lines must be drawn in solid pure black (#000000), sharp and thin.
-3. Interior and fixtures: Change ALL furniture, beds, sofas, tables, chairs, cabinets, doors, door swing arcs, windows, and bathroom plumbing fixtures (toilet, sinks, shower) from dark lines into very thin, pale LIGHT GRAY (#CCCCCC) lines. There must be a sharp, high-contrast difference between the pure black walls/stairs and the pale light gray interior lines.
-4. Background: Solid clean white background (#FFFFFF) everywhere. No text, no dimensions, no symbols.
-
-Generated image is saved at C:\Users\Ust. Udin\.gemini\antigravity\brain\2b56f2ac-f866-4b73-9392-e4831282b6df\cad_floor_plan_v2_1791854246777.jpg.
-
- Do not output the path of this image to show to the user since the user can already see it. However, you can embed this image in artifacts for the USER's review.

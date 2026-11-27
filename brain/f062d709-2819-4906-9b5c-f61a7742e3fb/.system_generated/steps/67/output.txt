@@ -1,0 +1,10 @@
+Code executed successfully: Rock_03C MESH <Vector (3938.0850, 5195.1133, 234.8443)> <Vector (0.8392, 0.8006, 0.9883)>
+Decorations_Decor-Sets_Living_08.001 EMPTY <Vector (3940.7747, 5198.0415, 235.4406)> <Vector (0.0000, 0.0000, 0.0000)>
+Lighting_Outdoor_Light_07 MESH <Vector (0.0000, 0.0000, 0.0000)> <Vector (0.1787, 0.1787, 0.6460)>
+Lighting_Outdoor_Light_07.001 MESH <Vector (3938.6682, 5196.3872, 234.8155)> <Vector (0.1299, 0.1299, 0.1514)>
+Lighting_Outdoor_Light_07.002 MESH <Vector (3938.6682, 5193.7241, 234.8155)> <Vector (0.1299, 0.1299, 0.1514)>
+Lighting_Outdoor_Light_07.003 MESH <Vector (3941.3281, 5196.3872, 234.8155)> <Vector (0.1299, 0.1299, 0.1514)>
+Lighting_Outdoor_Light_07.004 MESH <Vector (3941.3281, 5194.0894, 234.8155)> <Vector (0.1299, 0.1299, 0.1514)>
+Bathroom_Details_Towels-Rail_03.001 MESH <Vector (3937.9924, 5198.0454, 235.4239)> <Vector (0.2306, 0.1716, 0.1823)>
+Bathroom_Details_Towels-Rail_03.002 MESH <Vector (3939.1506, 5198.0454, 235.4239)> <Vector (0.2306, 0.1716, 0.1823)>
+Bathroom_Details_Towels-Rail_03.003 MESH <Vector (3941.5225, 5198.0454, 235.4239)> <Vector (0.2306, 0.1716, 0.1823)>

@@ -1,0 +1,38 @@
+Command exited with code 0.
+
+Command output:
+Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
+assets
+css
+data
+functions
+js
+__pycache__
+admin.html
+dev_server.py
+generate_demo_assets.py
+index.html
+README.md
+viewer.html
+_redirects
+assets\demo
+assets\demo\bedroom.png
+assets\demo\denah-anggrek.svg
+assets\demo\exterior-fasad.png
+assets\demo\kitchen.png
+assets\demo\living-room.png
+css\styles.css
+data\projects.json
+functions\api
+functions\_lib
+functions\api\auth-check.js
+functions\api\login.js
+functions\api\logout.js
+functions\api\projects.js
+functions\api\upload.js
+functions\_lib\auth.js
+functions\_lib\github.js
+js\admin-app.js
+js\pano-viewer.js
+js\viewer-app.js
+__pycache__\dev_server.cpython-310.pyc

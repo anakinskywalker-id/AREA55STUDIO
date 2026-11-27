@@ -1,0 +1,7 @@
+Task: ab929666-a94c-4623-b170-44ff7e2d9f12/task-44
+Status: RUNNING
+Log: file:///C:/Users/Ust.%20Udin/.gemini/antigravity/brain/ab929666-a94c-4623-b170-44ff7e2d9f12/.system_generated/tasks/task-44.log
+Log output:
+Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
+
+Last progress: 4s ago

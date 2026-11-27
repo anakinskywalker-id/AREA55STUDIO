@@ -1,0 +1,27 @@
+
+The command exited with code 1.
+Output:
+At line:1 char:236
++ ... edia_1791854095245_b6e43627.png'); Write-Output ('{0}x{1}' -f .Width, ...
++                                                                  ~
+You must provide a value expression following the '-f' operator.
+At line:1 char:237
++ ... 91854095245_b6e43627.png'); Write-Output ('{0}x{1}' -f .Width, .Heigh ...
++                                                            ~~~~~~
+Unexpected token '.Width' in expression or statement.
+At line:1 char:236
++ ... edia_1791854095245_b6e43627.png'); Write-Output ('{0}x{1}' -f .Width, ...
++                                                                  ~
+Missing closing ')' in expression.
+At line:1 char:252
++ ... 5_b6e43627.png'); Write-Output ('{0}x{1}' -f .Width, .Height); .Dispo ...
++                                                                 ~
+Unexpected token ')' in expression or statement.
+At line:1 char:264
++ ... e43627.png'); Write-Output ('{0}x{1}' -f .Width, .Height); .Dispose()
++                                                                         ~
+An expression was expected after '('.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : ExpectedValueExpression
+ 
+

@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+Stair bbox in full image: y=[431, 553], x=[487, 736]
+

@@ -1,0 +1,17 @@
+Code executed successfully: Object: DINDING
+Type: MESH
+Location: <Vector (0.0000, 0.0000, 0.0000)>
+Rotation (euler): <Euler (x=1.5708, y=-0.0000, z=0.0000), order='XYZ'>
+Scale: <Vector (1.0000, 1.0000, 1.0000)>
+Dimensions: <Vector (0.3398, 5.8500, 3.5000)>
+Collections: ['MAIN']
+World BBox X: 3937.1201 to 3937.4600 (width/thick: 0.3398)
+World BBox Y: 5189.0298 to 5192.5298 (width/thick: 3.5000)
+World BBox Z: 234.5876 to 240.4376 (height: 5.8500)
+Verts: 8, Faces: 6
+  Face 0: area=1.9889, normal=<Vector (0.0287, 0.9996, -0.0000)>
+  Face 1: area=1.1884, normal=<Vector (0.0000, -0.0000, -1.0000)>
+  Face 2: area=1.9881, normal=<Vector (0.0000, -1.0000, 0.0000)>
+  Face 3: area=20.4180, normal=<Vector (1.0000, 0.0000, 0.0000)>
+  Face 4: area=1.1884, normal=<Vector (0.0000, 0.0000, 1.0000)>
+  Face 5: area=20.4746, normal=<Vector (-1.0000, 0.0000, 0.0000)>

@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+Shape: (1376, 768)
+Max thickness (dist): 9.0
+Thick wall pixels count: 85957
+Total dark pixels count: 82814
+Thin dark lines count: 8075
+

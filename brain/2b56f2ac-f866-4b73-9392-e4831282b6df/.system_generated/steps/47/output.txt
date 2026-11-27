@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+Size: 768 1376
+Door swing: min 0 median 0
+Bed lines: min 119 median 182
+Stairs lines: min 0 median 30
+

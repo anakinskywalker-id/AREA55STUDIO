@@ -1,0 +1,1 @@
+Code executed successfully: Cursor in camera viewport: (X=0.59, Y=0.31, Z_depth=11.53)

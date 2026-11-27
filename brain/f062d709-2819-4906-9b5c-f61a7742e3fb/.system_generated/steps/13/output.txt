@@ -1,0 +1,2 @@
+Code executed successfully: Camera Camera.001: loc=<Vector (3943.7585, 5196.9619, 236.6917)>, rot=<Euler (x=1.5708, y=0.0000, z=2.0351), order='XYZ'>
+Active camera: Camera

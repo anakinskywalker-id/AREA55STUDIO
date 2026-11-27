@@ -1,0 +1,2 @@
+Code executed successfully: Total length: 30.692307692307693 m
+Total width: 10.23076923076923 m

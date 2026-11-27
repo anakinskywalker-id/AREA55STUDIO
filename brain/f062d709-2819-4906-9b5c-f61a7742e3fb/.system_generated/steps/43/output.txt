@@ -1,0 +1,12 @@
+Code executed successfully: Checking faces within 3m of cursor <Vector (3936.0344, 5195.4644, 234.5937)>:
+Found 36 close faces:
+Face 574: center=<Vector (3937.0298, 5195.4497, 234.6876)>, normal=<Vector (0.0000, -0.0000, -1.0000)>, mat=FrontColor.004, area=1.172
+Face 575: center=<Vector (3937.1299, 5195.4502, 234.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.586
+Face 576: center=<Vector (3937.0298, 5195.4502, 234.7876)>, normal=<Vector (0.0000, 0.0000, 1.0000)>, mat=FrontColor.004, area=1.172
+Face 578: center=<Vector (3936.9299, 5195.4502, 234.7376)>, normal=<Vector (-1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.586
+Face 579: center=<Vector (3935.4001, 5193.7603, 234.6876)>, normal=<Vector (0.0000, 0.0000, 1.0000)>, mat=Tiles_Concrete_03, area=19.758
+Face 582: center=<Vector (3933.9199, 5193.9297, 233.4376)>, normal=<Vector (-1.0000, 0.0000, 0.0000)>, mat=Tiles_Concrete_03, area=22.249
+Face 585: center=<Vector (3936.8804, 5196.1733, 234.6876)>, normal=<Vector (0.0000, 0.0000, 1.0000)>, mat=Tiles_Concrete_03, area=7.326
+Face 586: center=<Vector (3938.3601, 5195.0703, 234.6776)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Tiles_Concrete_03, area=0.066
+Face 594: center=<Vector (3938.5601, 5195.6206, 234.6676)>, normal=<Vector (0.0000, 0.0000, 1.0000)>, mat=Groundcover_Rock_Crushed_2_inch, area=0.404
+Face 595: center=<Vector (3938.4600, 5194.6206, 234.6676)>, normal=<Vector (0.0000, 0.0000, 1.0000)>, mat=Groundcover_Rock_Crushed_2_inch, area=0.495

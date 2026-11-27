@@ -1,0 +1,24 @@
+Scene 'Scene' | 3 camera, 4 curve, 11 empty, 27 light, 76 mesh | active Bathroom_Details_Towels-Rail_03.003 | selected none | mode OBJECT
+
+Showing 20 of 107 (name | type | location | size | hidden | children):
+Empty | empty | at (3901.05, 5196.09, 234.59)
+V1 New | mesh | at (0.0, 0.0, 0.0) | size 58.25x10.64x9.1
+Camera | camera | at (3947.56, 5193.66, 236.69)
+Camera.001 | camera | at (3943.76, 5196.96, 236.69)
+Camera.002 | camera | at (3943.16, 5191.12, 236.69)
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions | mesh | at (3939.57, 5198.17, 235.38) | size 1.2x0.61x0.14
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions.001 | mesh | at (3938.53, 5198.02, 235.38) | size 1.2x0.61x0.14
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions.002 | mesh | at (3939.12, 5198.02, 235.38) | size 0.61x0.6x0.14
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions.003 | mesh | at (3943.21, 5198.17, 235.38) | size 1.2x0.61x0.14
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions.004 | mesh | at (3942.17, 5198.02, 235.38) | size 1.2x0.61x0.14
+Seating_Sofas_Corner-Set-Outdoor_01_Cushions.005 | mesh | at (3942.76, 5198.02, 235.38) | size 0.61x0.6x0.14
+Towel and stones and candles | empty | at (3938.95, 5192.33, 234.87) | 7 children
+Tables_Dining_Corrugated_01 | mesh | at (3939.68, 5190.58, 234.62) | size 0.48x0.48x0.33
+Rolled towels-02 | empty | at (3939.08, 5192.29, 234.87) | 4 children
+Food-Drink_Alcohol_Glass-Wine-Red_02.001 | empty | at (3939.69, 5191.34, 234.94)
+Dining_Glassware_Glass-Cocktail_02.005 | empty | at (3939.68, 5191.44, 234.95)
+Cylinder | mesh | at (3939.02, 5192.32, 234.87) | size 0.31x0.32x0.02
+C-Component#9.003 | mesh | at (3939.04, 5191.61, 234.86) | size 0.65x1.86x0.57
+C-Component#9.001 | mesh | at (3940.35, 5191.61, 234.86) | size 0.65x1.86x0.57
+C-Component#9.002 | mesh | at (3941.13, 5191.61, 234.86) | size 0.65x1.86x0.57
+... 87 more. Narrow with query= or root=, or raise limit.

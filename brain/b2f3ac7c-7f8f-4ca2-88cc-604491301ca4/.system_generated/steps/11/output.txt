@@ -1,0 +1,24 @@
+Scene 'Scene' | 1 camera, 3 light, 112 mesh | active Floor | selected Floor | mode OBJECT
+
+Showing 20 of 116 (name | type | location | size | hidden | children):
+Side_Left | mesh | at (-0.39, 0.0, 0.98) | size 0.02x0.35x1.8
+Side_Right | mesh | at (0.39, 0.0, 0.98) | size 0.02x0.35x1.8
+Shelf_0 | mesh | at (0.0, 0.0, 0.09) | size 0.75x0.35x0.03
+Shelf_1 | mesh | at (0.0, 0.0, 0.54) | size 0.75x0.35x0.02
+Shelf_2 | mesh | at (0.0, 0.0, 0.98) | size 0.75x0.35x0.02
+Shelf_3 | mesh | at (0.0, 0.0, 1.42) | size 0.75x0.35x0.03
+Shelf_4 | mesh | at (0.0, 0.0, 1.87) | size 0.75x0.35x0.03
+Back_Panel | mesh | at (0.0, -0.17, 0.98) | size 0.75x0.01x1.75
+Base_Front | mesh | at (0.0, 0.16, 0.02) | size 0.8x0.03x0.05
+Base_Side_Left | mesh | at (-0.39, 0.0, 0.02) | size 0.02x0.3x0.05
+Base_Side_Right | mesh | at (0.39, 0.0, 0.02) | size 0.02x0.3x0.05
+Top_Cap | mesh | at (0.0, 0.01, 1.9) | size 0.83x0.37x0.04
+Book_S0_0 | mesh | at (-0.35, 0.07, 0.24) | size 0.03x0.16x0.28
+Book_S0_1 | mesh | at (-0.32, 0.07, 0.25) | size 0.04x0.17x0.29
+Book_S0_2 | mesh | at (-0.28, 0.06, 0.28) | size 0.03x0.2x0.34
+Book_S0_3 | mesh | at (-0.25, 0.08, 0.29) | size 0.03x0.14x0.37
+Book_S0_4 | mesh | at (-0.23, 0.07, 0.3) | size 0.03x0.17x0.39
+Book_S0_5 | mesh | at (-0.2, 0.08, 0.26) | size 0.02x0.14x0.31
+Book_S0_6 | mesh | at (-0.18, 0.05, 0.27) | size 0.03x0.21x0.34
+Book_S0_7 | mesh | at (-0.15, 0.08, 0.25) | size 0.03x0.16x0.28
+... 96 more. Narrow with query= or root=, or raise limit.

@@ -1,0 +1,6 @@
+
+The command exited with code 0.
+Output:
+<string>:3: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+min: 0 median: 63 max: 249
+

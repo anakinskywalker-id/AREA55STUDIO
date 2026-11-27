@@ -1,0 +1,3 @@
+Code executed successfully: Active object: <bpy_struct, Object("Bathroom_Details_Towels-Rail_03.003") at 0x0000028D88A2A3C8>
+Selected objects: []
+Mode: OBJECT

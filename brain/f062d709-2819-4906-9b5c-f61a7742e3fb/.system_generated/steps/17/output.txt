@@ -1,0 +1,11 @@
+Code executed successfully: Bathroom_Details_Accessory-Set_04_Dispenser1: loc=<Vector (-0.0024, 0.0666, 0.0004)>, dim=<Vector (0.0752, 0.0752, 0.1925)>
+Bathroom_Details_Accessory-Set_04_Dispenser2: loc=<Vector (-0.1055, 0.0125, 0.0002)>, dim=<Vector (0.0751, 0.0751, 0.1884)>
+Bathroom_Details_Accessory-Set_04_Dispenser3: loc=<Vector (0.0695, 0.0189, 0.0002)>, dim=<Vector (0.0638, 0.0644, 0.1755)>
+Bathroom_Details_Accessory-Set_04_Dispenser4: loc=<Vector (-0.0355, -0.0558, 0.0002)>, dim=<Vector (0.0654, 0.0652, 0.1672)>
+Bathroom_Details_Accessory-Set_04_Marble-Block1: loc=<Vector (0.0442, -0.0815, 0.0001)>, dim=<Vector (0.0674, 0.0674, 0.0251)>
+Bathroom_Details_Accessory-Set_04_Marble-Block2: loc=<Vector (0.1073, -0.0544, 0.0001)>, dim=<Vector (0.0562, 0.0562, 0.0821)>
+Bathroom_Details_Towels-Rail_03.001: loc=<Vector (3937.9924, 5198.0454, 235.4239)>, dim=<Vector (0.2306, 0.1716, 0.1823)>
+Bathroom_Details_Towels-Rail_03.002: loc=<Vector (3939.1506, 5198.0454, 235.4239)>, dim=<Vector (0.2306, 0.1716, 0.1823)>
+Bathroom_Details_Towels-Rail_03.003: loc=<Vector (3941.5225, 5198.0454, 235.4239)>, dim=<Vector (0.2306, 0.1716, 0.1823)>
+green_wall_1.006: loc=<Vector (3935.6606, 5198.4136, 238.1632)>, dim=<Vector (1.1190, 0.3611, 2.2492)>
+green_wall_1.007: loc=<Vector (3935.6606, 5198.4136, 236.0656)>, dim=<Vector (1.1190, 0.3611, 2.2492)>

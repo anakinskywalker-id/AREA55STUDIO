@@ -1,0 +1,9 @@
+Using prompt: Convert this architectural floor plan image into a minimalist, sharp 2D CAD-style architectural floor plan drawing on a clean solid white background. Strictly follow these rules:
+1. Walls & Columns: Fill all load-bearing walls and structural columns with SOLID PURE BLACK (#000000) with zero gradients, zero shadows, and zero textures or patterns.
+2. Stairs: Draw all steps and lines of the staircase in pure black (#000000), with thin, sharp, crisp architectural lines.
+3. Interior & Fixtures: Draw all other non-structural lines (furniture including beds, sofa, dining table, chairs, TV console, door swing arcs, windows, bathroom fixtures such as sink, toilet, tub) using very thin light gray (#CCCCCC) wireframe/vector lines.
+4. Cleanup: Completely remove all text labels (like 'N' and arrow), dimensions, grid lines, grass textures, wood deck textures, tile patterns, roof hatching, and floor fills. Do not remove any interior furniture or fixtures. Keep the exact layout, geometry, and rooms identical to the reference image.
+
+Generated image is saved at C:\Users\Ust. Udin\.gemini\antigravity\brain\2b56f2ac-f866-4b73-9392-e4831282b6df\cad_floor_plan_1791854204104.jpg.
+
+ Do not output the path of this image to show to the user since the user can already see it. However, you can embed this image in artifacts for the USER's review.

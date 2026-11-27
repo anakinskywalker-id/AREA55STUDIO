@@ -1,0 +1,2 @@
+Code executed successfully: Camera: Camera <Vector (3947.5615, 5193.6572, 236.6917)> <Euler (x=1.5708, y=0.0000, z=1.5708), order='XYZ'>
+Cursor: <Vector (3936.0344, 5195.4644, 234.5937)>

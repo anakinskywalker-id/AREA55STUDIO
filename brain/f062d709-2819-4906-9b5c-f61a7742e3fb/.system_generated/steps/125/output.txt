@@ -1,0 +1,13 @@
+Code executed successfully: Objects currently in ACS:
+ - Rock_03C (MESH)
+ - Decorations_Decor-Sets_Living_08.001 (EMPTY)
+ - Lighting_Outdoor_Light_07 (MESH)
+ - Lighting_Outdoor_Light_07.001 (MESH)
+ - Lighting_Outdoor_Light_07.002 (MESH)
+ - Lighting_Outdoor_Light_07.003 (MESH)
+ - Lighting_Outdoor_Light_07.004 (MESH)
+ - Bathroom_Details_Towels-Rail_03.001 (MESH)
+ - Bathroom_Details_Towels-Rail_03.002 (MESH)
+ - Bathroom_Details_Towels-Rail_03.003 (MESH)
+ - ACS_Dinding_Motif_Batu (MESH)
+ACS_Dinding_Motif_Batu is active and selected.

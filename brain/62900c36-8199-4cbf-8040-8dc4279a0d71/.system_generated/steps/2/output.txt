@@ -1,0 +1,21 @@
+Command exited with code 0.
+
+Command output:
+Attempting to perform the InitializeDefaultDrives operation on the 'FileSystem' provider failed.
+node : The term 'node' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:87
++ ... TMP = $env:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; node -v; npm ...
++                                                              ~~~~
+    + CategoryInfo          : ObjectNotFound: (node:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+npm : The term 'npm' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:96
++ ... nv:_TMP; $env:LOCALAPPDATA = $env:_LOCALAPPDATA; node -v; npm -v; pyt ...
++                                                               ~~~
+    + CategoryInfo          : ObjectNotFound: (npm:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+ 
+Python 3.10.6

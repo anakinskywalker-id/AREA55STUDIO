@@ -1,0 +1,10 @@
+Code executed successfully: DINDING local vertices:
+  v0: local=<Vector (3937.4600, 234.5880, -5192.5200)>, world=<Vector (3937.4600, 5192.5200, 234.5876)>
+  v1: local=<Vector (3937.1201, 234.5880, -5192.5298)>, world=<Vector (3937.1201, 5192.5298, 234.5876)>
+  v2: local=<Vector (3937.1201, 240.4380, -5192.5298)>, world=<Vector (3937.1201, 5192.5298, 240.4376)>
+  v3: local=<Vector (3937.4600, 240.4380, -5192.5200)>, world=<Vector (3937.4600, 5192.5200, 240.4376)>
+  v4: local=<Vector (3937.4600, 234.5880, -5189.0298)>, world=<Vector (3937.4600, 5189.0298, 234.5876)>
+  v5: local=<Vector (3937.1201, 234.5880, -5189.0298)>, world=<Vector (3937.1201, 5189.0298, 234.5876)>
+  v6: local=<Vector (3937.4600, 240.4380, -5189.0298)>, world=<Vector (3937.4600, 5189.0298, 240.4376)>
+  v7: local=<Vector (3937.1201, 240.4380, -5189.0298)>, world=<Vector (3937.1201, 5189.0298, 240.4376)>
+Materials on DINDING: ['Concrete_Scored_Jointless', 'Glass', '_Color_M06_3.002', '_Color_M06_2.002', '_Color_M06_4.002', '_1.004', 'FrontColor.004', 'Stone_Vein_Gray', 'Oak Wood2', 'Tiles_Concrete_03', 'Groundcover_Rock_Crushed_2_inch', 'Glass', 'Wall_Painted_Gloss', 'M LED', 'Color_M08', 'M WIREMESH', 'Carpet_Berber_Pattern_Gray', 'M LED BAWAH', 'aq_Water_Swimming-Pool']

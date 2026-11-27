@@ -1,0 +1,13 @@
+Command exited with code 0.
+
+Command output:
+ Volume in drive C has no label.
+ Volume Serial Number is 1AE3-E763
+
+ Directory of C:\Program Files\Blender Foundation
+
+02/10/2025  11:12    <DIR>          .
+11/08/2026  10:41    <DIR>          ..
+02/10/2025  11:12    <DIR>          Blender 4.5
+               0 File(s)              0 bytes
+               3 Dir(s)  154.562.502.656 bytes free

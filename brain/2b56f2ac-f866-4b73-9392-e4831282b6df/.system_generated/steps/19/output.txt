@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+dark (<50): 77871
+mid-gray (180-220): 16513
+light (220-250): 17607
+pure white (255): 897325
+

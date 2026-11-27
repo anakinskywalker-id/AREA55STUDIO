@@ -1,0 +1,18 @@
+Code executed successfully: Collection MAIN:
+  V1 New (type=MESH, loc=<Vector (0.0000, 0.0000, 0.0000)>, dim=<Vector (58.2500, 9.1000, 10.6401)>)
+Collection V1:
+Collection V2:
+  Chocofur_Flowers_36.002 (type=MESH, loc=<Vector (3941.5862, 5190.3496, 234.6453)>, dim=<Vector (0.9078, 0.8142, 1.3986)>)
+  Chocofur_Flowers_36.003 (type=MESH, loc=<Vector (3941.5862, 5197.2466, 234.6453)>, dim=<Vector (0.9078, 0.8142, 1.3986)>)
+  Cube.002 (type=MESH, loc=<Vector (3939.7607, 5181.7812, 241.4133)>, dim=<Vector (2.0000, 2.0000, 2.0000)>)
+Collection BATU:
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.006 (type=MESH, loc=<Vector (3934.1372, 5196.5376, 234.6762)>, dim=<Vector (0.3801, 0.4049, 0.4024)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.005 (type=MESH, loc=<Vector (3934.2517, 5192.8589, 234.6464)>, dim=<Vector (0.7014, 0.4007, 0.4535)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.003 (type=MESH, loc=<Vector (3934.3694, 5197.8149, 234.8082)>, dim=<Vector (1.0607, 0.5872, 0.3874)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.002 (type=MESH, loc=<Vector (3934.2505, 5197.0732, 234.7659)>, dim=<Vector (0.6612, 0.3710, 0.3063)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.001 (type=MESH, loc=<Vector (3934.7905, 5198.2139, 234.7690)>, dim=<Vector (0.3075, 0.2499, 0.2144)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0 (type=MESH, loc=<Vector (3936.6870, 5198.1113, 234.7434)>, dim=<Vector (0.5514, 0.2776, 0.2548)>)
+  Aset_rock_smooth_S_ukinbhhiw_00_LOD0.004 (type=MESH, loc=<Vector (3934.5303, 5196.9180, 234.6666)>, dim=<Vector (1.0607, 0.5872, 0.3874)>)
+  Object_3 (type=MESH, loc=<Vector (3935.3513, 5198.2334, 234.6436)>, dim=<Vector (1.2900, 0.3352, 1.8976)>)
+  Object_3.001 (type=MESH, loc=<Vector (3934.5796, 5193.6914, 234.6210)>, dim=<Vector (1.7348, 0.3352, 1.8991)>)
+  Spot (type=LIGHT, loc=<Vector (3934.1304, 5194.8755, 234.7520)>, dim=<Vector (0.0000, 0.0000, 0.0000)>)

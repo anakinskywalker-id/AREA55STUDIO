@@ -1,0 +1,36 @@
+Code executed successfully: Faces at the far back wall facing camera (normal approx (1, 0, 0)):
+Back wall face 3: center=<Vector (3937.4600, 5190.7749, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Concrete_Scored_Jointless, area=20.42
+Back wall face 8: center=<Vector (3933.3999, 5191.0947, 235.2126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Glass, area=3.36
+Back wall face 155: center=<Vector (3937.2896, 5192.2354, 234.3501)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_1.004, area=0.12
+Back wall face 240: center=<Vector (3933.4500, 5190.8350, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.06
+Back wall face 251: center=<Vector (3937.1201, 5192.4854, 235.8126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_3.002, area=0.01
+Back wall face 254: center=<Vector (3933.4500, 5191.0449, 235.8126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_3.002, area=0.13
+Back wall face 269: center=<Vector (3937.1201, 5192.4854, 234.7126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_3.002, area=0.01
+Back wall face 272: center=<Vector (3933.4500, 5191.0449, 234.7126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_3.002, area=0.13
+Back wall face 301: center=<Vector (3933.4500, 5192.4102, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.05
+Back wall face 306: center=<Vector (3937.1201, 5192.4648, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.17
+Back wall face 312: center=<Vector (3935.3799, 5192.4648, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.17
+Back wall face 318: center=<Vector (3936.2500, 5192.4648, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.17
+Back wall face 324: center=<Vector (3934.5200, 5192.4648, 235.2626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_2.002, area=0.17
+Back wall face 331: center=<Vector (3933.9199, 5190.6851, 234.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_1.004, area=0.73
+Back wall face 341: center=<Vector (3933.5000, 5190.2598, 234.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=_Color_M06_3.002, area=0.31
+Back wall face 355: center=<Vector (3933.9199, 5199.0996, 237.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=6.55
+Back wall face 360: center=<Vector (3933.9199, 5195.1553, 237.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Stone_Vein_Gray, area=37.09
+Back wall face 379: center=<Vector (3937.3401, 5198.3550, 237.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.25
+Back wall face 451: center=<Vector (3937.9399, 5198.3550, 237.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.25
+Back wall face 457: center=<Vector (3937.7400, 5198.3550, 237.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.25
+Back wall face 487: center=<Vector (3937.5400, 5198.3550, 237.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.25
+Back wall face 575: center=<Vector (3937.1299, 5195.4502, 234.7376)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.59
+Back wall face 621: center=<Vector (3937.4199, 5192.7798, 237.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=2.88
+Back wall face 627: center=<Vector (3937.4199, 5198.1299, 237.5626)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=2.88
+Back wall face 629: center=<Vector (3937.1201, 5195.4551, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Glass, area=27.40
+Back wall face 633: center=<Vector (3937.1201, 5193.0449, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.17
+Back wall face 639: center=<Vector (3937.1201, 5194.6450, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.17
+Back wall face 645: center=<Vector (3937.1201, 5196.2549, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.17
+Back wall face 651: center=<Vector (3937.1201, 5197.8652, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.17
+Back wall face 654: center=<Vector (3937.3701, 5195.4551, 239.8876)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Wall_Painted_Gloss, area=5.34
+Back wall face 665: center=<Vector (3937.9600, 5190.5303, 237.5126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=1.70
+Back wall face 696: center=<Vector (3937.3799, 5194.5547, 240.4426)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=FrontColor.004, area=0.08
+Back wall face 1028: center=<Vector (3937.9399, 5194.5298, 240.3126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.38
+Back wall face 1034: center=<Vector (3937.7400, 5194.5298, 240.3126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.38
+Back wall face 1040: center=<Vector (3937.5400, 5194.5298, 240.3126)>, normal=<Vector (1.0000, 0.0000, 0.0000)>, mat=Oak Wood2, area=0.38

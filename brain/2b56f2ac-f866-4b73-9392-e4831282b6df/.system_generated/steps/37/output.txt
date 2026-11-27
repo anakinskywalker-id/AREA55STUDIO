@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+Floor plan bounding box: 14 8 260 470 width: 247 height: 463
+

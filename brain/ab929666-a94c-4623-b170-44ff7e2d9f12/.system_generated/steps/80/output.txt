@@ -1,0 +1,9 @@
+Command exited with code 0.
+
+Command output:
+
+ProductVersion   FileVersion      FileName                                                                             
+--------------   -----------      --------                                                                             
+4.2              4.2              C:\Program Files\blender.exe                                                         
+
+

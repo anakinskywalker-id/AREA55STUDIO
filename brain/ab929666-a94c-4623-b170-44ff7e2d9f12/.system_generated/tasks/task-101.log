@@ -1,0 +1,66 @@
+TBBmalloc: skip allocation functions replacement in ucrtbase.dll: unknown prologue for function _msize
+DEBUG:BlenderGIS-master.core.checkdeps:GDAL Python binding unavailable
+DEBUG:BlenderGIS-master.core.checkdeps:PyProj unavailable
+DEBUG:BlenderGIS-master.core.checkdeps:Pillow unavailable
+DEBUG:BlenderGIS-master.core.checkdeps:ImageIO Freeimage plugin available
+[INFO] LC_reload: Done 
+[INFO] LC_reload: Done 
+P13136:14:05:14:polygoniq.engon:INFO: [__init__.py:58] polygoniq root logger initialized in module "engon", file "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\engon\__init__.py" -----
+P13136:14:05:14:polygoniq.polib.render_bpy:INFO: [render_bpy.py:28] 'polib.render_bpy' module is not available in background mode!
+P13136:14:05:14:polygoniq.bl_ext.user_default.memsaver_personal.derivative_generator:INFO: [derivative_generator.py:103] OpenImageIO successfully imported and will be used for memsaver.
+P13136:14:05:15:polygoniq.bl_ext.user_default.memsaver_personal:INFO: [__init__.py:815] Checking all bpy.data.images' derivatives as part of a load_post handler (bpy.data.filepath="")...
+Traceback (most recent call last):
+  File "C:\Program Files\4.2\scripts\modules\addon_utils.py", line 566, in disable
+    mod.unregister()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\__init__.py", line 176, in unregister
+    auto_load.unregister()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\auto_load.py", line 44, in unregister
+    module.unregister()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\handlers.py", line 121, in unregister
+    bpy.app.handlers.depsgraph_update_post.remove(depsgraphUpdatePost)
+ValueError: list.remove(x): x not in list
+Error in bpy.app.handlers.load_post[1]:
+Blender 4.2.16 LTS (hash 39502cae951c built 2025-11-18 01:34:37)
+Traceback (most recent call last):
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\handlers.py", line 65, in loadPost
+    handler()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\events.py", line 71, in fileLoaded
+    updateFile()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\timing.py", line 16, in wrapper
+    if debuggingIsEnabled():
+       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\preferences.py", line 209, in debuggingIsEnabled
+    return getPreferences().developer.debug
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\preferences.py", line 191, in getPreferences
+    return bpy.context.preferences.addons[addonName].preferences
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "animation_nodes" not found'
+Info: Total files 0 | Changed 0 | Failed 0
+Error in bpy.app.handlers.render_pre[0]:
+Traceback (most recent call last):
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\handlers.py", line 75, in renderPre
+    handler(scene)
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\events.py", line 54, in renderPre
+    event_handler.update(event.getActives().union({"Frame"}))
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\recursion.py", line 12, in wrapper
+    result = function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\event_handler.py", line 17, in update
+    updateEverything()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\timing.py", line 13, in wrapper
+    output = function(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\update.py", line 17, in updateEverything
+    tree_info.update()
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\utils\timing.py", line 16, in wrapper
+    if debuggingIsEnabled():
+       ^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\preferences.py", line 209, in debuggingIsEnabled
+    return getPreferences().developer.debug
+           ^^^^^^^^^^^^^^^^
+  File "C:\Users\Ust. Udin\AppData\Roaming\Blender Foundation\Blender\4.2\scripts\addons\animation_nodes\preferences.py", line 191, in getPreferences
+    return bpy.context.preferences.addons[addonName].preferences
+           ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^
+KeyError: 'bpy_prop_collection[key]: key "animation_nodes" not found'
+Fra:1 Mem:97.93M (Peak 97.93M) | Time:00:25.58 | Rendering 1 / 64 samples

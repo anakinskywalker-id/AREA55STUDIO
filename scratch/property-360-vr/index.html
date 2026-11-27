@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Virtual Tour 360° VR — Katalog Properti</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="navbar-inner">
+      <a href="/" class="brand">
+        <span class="brand-badge">360°</span>
+        <span>Property VR Showcase</span>
+      </a>
+      <div style="display:flex; gap:10px; align-items:center;">
+        <a href="/admin.html" class="btn btn-sm">Panel Admin</a>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <span class="hero-tag">Virtual Tour Interaktif 360° &amp; Mode VR</span>
+    <h1>Jelajahi Setiap Sudut Rumah Sebelum Berkunjung</h1>
+    <p>
+      Pilih projek properti di bawah ini untuk melihat tur virtual 360° area eksterior dan interior lengkap dengan denah interaktif, penunjuk posisi ruangan, dan mode VR.
+    </p>
+  </section>
+
+  <main id="projects-grid" class="projects-grid">
+    <p style="color: var(--text-secondary);">Memuat daftar projek...</p>
+  </main>
+
+  <script>
+    async function loadProjects() {
+      const grid = document.getElementById('projects-grid');
+      try {
+        const res = await fetch('/data/projects.json?t=' + Date.now());
+        if (!res.ok) throw new Error('Gagal memuat data projek');
+        const data = await res.json();
+        const projects = data.projects || [];
+
+        if (!projects.length) {
+          grid.innerHTML = `
+            <div class="panel-card" style="grid-column:1/-1; text-align:center; padding:48px;">
+              <h3>Belum ada projek tersedia</h3>
+              <p style="color:var(--text-secondary); margin:10px 0 18px;">Masuk ke Panel Admin untuk menambahkan projek rumah pertama Anda.</p>
+              <a href="/admin.html" class="btn btn-primary">Buka Panel Admin</a>
+            </div>`;
+          return;
+        }
+
+        grid.innerHTML = projects.map((p) => {
+          const interiorCount = (p.rooms || []).filter(r => r.category === 'interior').length;
+          const exteriorCount = (p.rooms || []).filter(r => r.category === 'exterior').length;
+          const slug = encodeURIComponent(p.slug || p.id);
+          const tourUrl = `/p/${slug}`;
+          return `
+            <article class="project-card">
+              <div class="project-thumb">
+                <img src="/${p.thumbnail || 'assets/demo/exterior-fasad.png'}" alt="${p.name}" loading="lazy" />
+                <span class="project-badge-360">360° VR TOUR</span>
+              </div>
+              <div class="project-body">
+                <div>
+                  <h2 class="project-title">${p.name}</h2>
+                  <p style="font-size:0.85rem; color:var(--accent-hover); margin-top:2px;">${p.subtitle || ''}</p>
+                </div>
+                <div class="project-meta">
+                  <span>📍 ${p.location || '-'}</span>
+                  <span>🏠 ${interiorCount} Interior • 🌿 ${exteriorCount} Exterior</span>
+                </div>
+                <p class="project-desc">${p.description || ''}</p>
+                <div class="project-footer">
+                  <span class="price-tag">${p.price || 'Hubungi Marketing'}</span>
+                  <a href="${tourUrl}" class="btn btn-primary btn-sm">Mulai Tur 360°</a>
+                </div>
+              </div>
+            </article>
+          `;
+        }).join('');
+      } catch (err) {
+        grid.innerHTML = `<p style="color:#fca5a5;">Error: ${err.message}</p>`;
+      }
+    }
+    loadProjects();
+  </script>
+</body>
+</html>

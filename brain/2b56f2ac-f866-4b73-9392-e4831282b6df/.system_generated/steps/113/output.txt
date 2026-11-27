@@ -1,0 +1,5 @@
+Code executed successfully: Object: Dinding_Deck_Dining_Lintel, X: [2.80, 2.95], Y: [6.20, 8.00], Z: [2.20, 2.40]
+Object: Dinding_Deck_Dining_Pillar_North, X: [2.80, 2.95], Y: [8.00, 8.20], Z: [0.00, 2.40]
+Object: Kusen_Slid_Dining_Jamb_S, X: [2.81, 2.94], Y: [6.20, 6.25], Z: [0.15, 2.20]
+Object: Kusen_Slid_Dining_Jamb_N, X: [2.81, 2.94], Y: [7.95, 8.00], Z: [0.15, 2.20]
+Object: Kusen_Slid_Dining_Header, X: [2.81, 2.94], Y: [6.20, 8.00], Z: [2.15, 2.20]

@@ -1,0 +1,25 @@
+{
+  "up_to_date": false,
+  "protocol_version": null,
+  "expected_protocol_version": 15,
+  "addon_version": null,
+  "capabilities": [],
+  "blender_version": null,
+  "premium_generators": [],
+  "libraries": {
+    "polyhaven": "unknown",
+    "sketchfab": "unknown",
+    "polypizza": "unknown"
+  },
+  "generators": {
+    "tripo": "unknown",
+    "hunyuan3d": "unknown",
+    "hyper3d": "unknown",
+    "meshy": "unknown"
+  },
+  "source": "error",
+  "warning": "Addon handshake failed: Not connected to Blender",
+  "telemetry_consent": null,
+  "update_command": "uvx mcp-for-blender install-addon",
+  "after_install": "If the addon file was updated: in Blender, Preferences \u2192 Add-ons \u2192 disable/enable 'Interface: Blender MCP', or restart Blender, then Start MCP Server."
+}

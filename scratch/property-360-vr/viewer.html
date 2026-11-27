@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>360° VR Tour</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <div class="viewer-shell">
+    <div id="pano-canvas-container"></div>
+    <div id="hotspots-layer"></div>
+
+    <!-- Top Bar -->
+    <div class="viewer-topbar" id="viewer-topbar">
+      <div class="viewer-title-card">
+        <a href="/" class="btn btn-icon" title="Kembali ke Daftar Projek">←</a>
+        <div class="viewer-title-text">
+          <h2 id="project-name">Memuat Tur...</h2>
+          <p id="room-subtitle">-</p>
+        </div>
+      </div>
+
+      <div class="viewer-controls">
+        <button id="btn-autorotate" class="btn btn-sm" title="Putar Otomatis">⟳ Auto</button>
+        <button id="btn-gyro" class="btn btn-sm" title="Sensor Gerak HP (Gyroscope)">📱 Gyro</button>
+        <button id="btn-vr" class="btn btn-sm" title="Mode VR Cardboard Split-Screen">🥽 Mode VR</button>
+        <button id="btn-share" class="btn btn-sm" title="Salin Link Projek">🔗 Share</button>
+        <button id="btn-fullscreen" class="btn btn-sm" title="Layar Penuh">⛶</button>
+      </div>
+    </div>
+
+    <!-- Floorplan Minimap Widget -->
+    <aside id="minimap-widget" class="minimap-widget">
+      <div class="minimap-header">
+        <span>🗺️ Denah Lokasi</span>
+        <div class="minimap-header-actions">
+          <button id="btn-minimap-expand" class="btn btn-sm" style="padding:3px 8px;" title="Perbesar/Perkecil Denah">⤢</button>
+          <button id="btn-minimap-toggle" class="btn btn-sm" style="padding:3px 8px;" title="Tutup/Buka Denah">−</button>
+        </div>
+      </div>
+      <div class="minimap-body">
+        <div id="floorplan-stage" class="floorplan-stage">
+          <img id="floorplan-img" src="" alt="Denah Rumah" />
+          <div id="radar-cone" class="radar-cone" style="display:none;">
+            <svg id="radar-svg" viewBox="0 0 100 100">
+              <defs>
+                <radialGradient id="radarGrad" cx="50%" cy="50%" r="50%">
+                  <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.65"/>
+                  <stop offset="100%" stop-color="#f59e0b" stop-opacity="0"/>
+                </radialGradient>
+              </defs>
+              <path d="M50,50 L24,6 A48,48 0 0,1 76,6 Z" fill="url(#radarGrad)"/>
+            </svg>
+          </div>
+          <div id="floorplan-pins"></div>
+        </div>
+        <div class="minimap-legend">
+          <span class="legend-item"><span class="legend-dot" style="background:#f59e0b;"></span> Posisi Anda</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#0284c7;"></span> Interior</span>
+          <span class="legend-item"><span class="legend-dot" style="background:#059669;"></span> Exterior</span>
+        </div>
+      </div>
+    </aside>
+
+    <!-- Bottom Room Strip -->
+    <div class="viewer-bottombar" id="viewer-bottombar">
+      <div id="room-strip" class="room-strip"></div>
+    </div>
+
+    <!-- VR Split-Screen HUD -->
+    <div id="vr-overlay-hud" class="vr-overlay-hud">
+      <div class="vr-divider"></div>
+      <button id="btn-exit-vr" class="btn btn-primary btn-sm vr-exit-btn">Keluar Mode VR</button>
+    </div>
+
+    <div id="toast" class="toast"></div>
+  </div>
+
+  <script type="module" src="/js/viewer-app.js"></script>
+</body>
+</html>

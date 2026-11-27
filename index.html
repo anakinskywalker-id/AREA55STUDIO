@@ -7,17 +7,17 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="/css/styles.css" />
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
   <header class="navbar">
     <div class="navbar-inner">
-      <a href="/" class="brand">
+      <a href="index.html" class="brand">
         <span class="brand-badge">360°</span>
         <span>Property VR Showcase</span>
       </a>
       <div style="display:flex; gap:10px; align-items:center;">
-        <a href="/admin.html" class="btn btn-sm">Panel Admin</a>
+        <a href="admin.html" class="btn btn-sm">Panel Admin</a>
       </div>
     </div>
   </header>
@@ -38,7 +38,7 @@
     async function loadProjects() {
       const grid = document.getElementById('projects-grid');
       try {
-        const res = await fetch('/data/projects.json?t=' + Date.now());
+        const res = await fetch('data/projects.json?t=' + Date.now());
         if (!res.ok) throw new Error('Gagal memuat data projek');
         const data = await res.json();
         const projects = data.projects || [];
@@ -48,7 +48,7 @@
             <div class="panel-card" style="grid-column:1/-1; text-align:center; padding:48px;">
               <h3>Belum ada projek tersedia</h3>
               <p style="color:var(--text-secondary); margin:10px 0 18px;">Masuk ke Panel Admin untuk menambahkan projek rumah pertama Anda.</p>
-              <a href="/admin.html" class="btn btn-primary">Buka Panel Admin</a>
+              <a href="admin.html" class="btn btn-primary">Buka Panel Admin</a>
             </div>`;
           return;
         }
@@ -57,11 +57,11 @@
           const interiorCount = (p.rooms || []).filter(r => r.category === 'interior').length;
           const exteriorCount = (p.rooms || []).filter(r => r.category === 'exterior').length;
           const slug = encodeURIComponent(p.slug || p.id);
-          const tourUrl = `/p/${slug}`;
+          const tourUrl = `viewer.html?p=${slug}`;
           return `
             <article class="project-card">
               <div class="project-thumb">
-                <img src="/${p.thumbnail || 'assets/demo/exterior-fasad.png'}" alt="${p.name}" loading="lazy" />
+                <img src="${p.thumbnail || 'assets/demo/exterior-fasad.png'}" alt="${p.name}" loading="lazy" />
                 <span class="project-badge-360">360° VR TOUR</span>
               </div>
               <div class="project-body">

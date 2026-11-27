@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Panel Admin — Property 360° VR</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/css/styles.css" />
+</head>
+<body>
+  <!-- Login Screen -->
+  <div id="login-screen" class="admin-login-wrap">
+    <div class="admin-login-card">
+      <div class="brand" style="margin-bottom:18px;">
+        <span class="brand-badge">360°</span>
+        <span>Admin Panel VR</span>
+      </div>
+      <p style="color:var(--text-secondary); font-size:0.9rem; margin-bottom:20px;">
+        Masukkan password admin untuk mengelola projek, upload foto 360°, denah, dan titik ruangan.
+      </p>
+      <form id="login-form" style="display:flex; flex-direction:column; gap:14px;">
+        <div class="form-group">
+          <label for="admin-password">Password Admin</label>
+          <input id="admin-password" type="password" class="input" placeholder="Masukkan password..." required />
+        </div>
+        <button type="submit" class="btn btn-primary">Masuk ke Panel Admin</button>
+        <p id="login-error" style="color:#fca5a5; font-size:0.84rem; display:none;"></p>
+      </form>
+      <div style="margin-top:18px; text-align:center;">
+        <a href="/" style="font-size:0.84rem; color:var(--text-secondary);">← Kembali ke Katalog Projek</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Admin Dashboard -->
+  <div id="admin-dashboard" style="display:none;">
+    <header class="navbar">
+      <div class="navbar-inner">
+        <div class="brand">
+          <span class="brand-badge">360°</span>
+          <span>Admin Panel — Manajemen Projek</span>
+        </div>
+        <div style="display:flex; gap:10px; flex-wrap:wrap;">
+          <a href="/" class="btn btn-sm">Lihat Katalog</a>
+          <button id="btn-export-json" class="btn btn-sm">⬇ Export JSON</button>
+          <button id="btn-save-all" class="btn btn-primary btn-sm">💾 Simpan Semua ke Server / GitHub</button>
+          <button id="btn-logout" class="btn btn-danger btn-sm">Keluar</button>
+        </div>
+      </div>
+    </header>
+
+    <div class="admin-layout">
+      <!-- Sidebar: Project List -->
+      <aside class="panel-card">
+        <div class="panel-title">
+          <span>Daftar Projek</span>
+          <button id="btn-new-project" class="btn btn-primary btn-sm">+ Projek</button>
+        </div>
+        <div id="admin-project-list"></div>
+      </aside>
+
+      <!-- Main Editor -->
+      <main id="admin-editor-area" style="display:flex; flex-direction:column; gap:20px;">
+        <!-- Project Info Card -->
+        <section class="panel-card">
+          <div class="panel-title">
+            <span>Informasi Projek</span>
+            <div style="display:flex; gap:8px;">
+              <a id="btn-preview-project" href="#" target="_blank" class="btn btn-sm">👁️ Preview Tur</a>
+              <button id="btn-delete-project" class="btn btn-danger btn-sm">Hapus Projek</button>
+            </div>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label>Nama Projek</label>
+              <input id="proj-name" type="text" class="input" placeholder="Misal: Cluster Anggrek Residence" />
+            </div>
+            <div class="form-group">
+              <label>Slug URL (Link: /p/slug-anda)</label>
+              <input id="proj-slug" type="text" class="input" placeholder="cluster-anggrek" />
+            </div>
+            <div class="form-group">
+              <label>Subjudul / Tipe Unit</label>
+              <input id="proj-subtitle" type="text" class="input" placeholder="Tipe 72 / 90 • Modern Tropical" />
+            </div>
+            <div class="form-group">
+              <label>Lokasi</label>
+              <input id="proj-location" type="text" class="input" placeholder="BSD City, Tangerang Selatan" />
+            </div>
+            <div class="form-group">
+              <label>Harga</label>
+              <input id="proj-price" type="text" class="input" placeholder="Mulai Rp 1,45 Miliar" />
+            </div>
+            <div class="form-group">
+              <label>Ruangan Awal (Default)</label>
+              <select id="proj-default-room" class="input"></select>
+            </div>
+            <div class="form-group full">
+              <label>Deskripsi Singkat</label>
+              <textarea id="proj-desc" rows="2" class="input"></textarea>
+            </div>
+            <div class="form-group">
+              <label>Upload Thumbnail Projek</label>
+              <input id="upload-thumbnail" type="file" accept="image/*" class="input" />
+              <small id="proj-thumb-path" style="color:var(--text-secondary); font-size:0.75rem;"></small>
+            </div>
+            <div class="form-group">
+              <label>Upload Gambar Denah Rumah (Floorplan)</label>
+              <input id="upload-floorplan" type="file" accept="image/*,.svg" class="input" />
+              <small id="proj-floorplan-path" style="color:var(--text-secondary); font-size:0.75rem;"></small>
+            </div>
+          </div>
+        </section>
+
+        <!-- Rooms & Visual Editor -->
+        <section class="panel-card">
+          <div class="panel-title">
+            <span>Ruangan / Spot 360° &amp; Visual Editor</span>
+            <button id="btn-add-room" class="btn btn-primary btn-sm">+ Tambah Ruangan</button>
+          </div>
+
+          <div id="admin-rooms-list" style="margin-bottom:16px;"></div>
+
+          <div id="room-editor-panel" style="display:none; border-top:1px solid var(--border-subtle); padding-top:16px;">
+            <div class="form-grid">
+              <div class="form-group">
+                <label>Nama Ruangan</label>
+                <input id="room-name" type="text" class="input" placeholder="Misal: Master Bedroom" />
+              </div>
+              <div class="form-group">
+                <label>Kategori</label>
+                <select id="room-category" class="input">
+                  <option value="interior">Interior</option>
+                  <option value="exterior">Exterior</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>Upload Foto 360° (Equirectangular JPG/PNG)</label>
+                <input id="upload-room-pano" type="file" accept="image/*" class="input" />
+                <small id="room-pano-path" style="color:var(--text-secondary); font-size:0.75rem;"></small>
+              </div>
+              <div class="form-group">
+                <label>Arah Radar / North Offset (<span id="north-val">0</span>°)</label>
+                <input id="room-north" type="range" min="-180" max="180" value="0" />
+              </div>
+            </div>
+
+            <div class="visual-editor-grid">
+              <!-- Left: Floorplan Pin Placer -->
+              <div>
+                <p style="font-size:0.85rem; font-weight:700; margin-bottom:8px;">
+                  1. Klik pada Denah untuk menaruh titik ruangan ini
+                </p>
+                <div id="editor-floorplan-box" class="editor-floorplan-box">
+                  <img id="editor-floorplan-img" src="" alt="Denah" />
+                  <div id="editor-floorplan-pins"></div>
+                </div>
+                <p style="font-size:0.75rem; color:var(--text-secondary); margin-top:6px;">
+                  Koordinat Pin: <strong id="pin-coords-label">-</strong>
+                </p>
+              </div>
+
+              <!-- Right: 360 Hotspot Placer -->
+              <div>
+                <div style="display:flex; align-items:center; justify-content:space-between; gap:8px; margin-bottom:8px;">
+                  <p style="font-size:0.85rem; font-weight:700;">
+                    2. Klik di Foto 360° untuk tambah panah pindah ruangan
+                  </p>
+                </div>
+                <div style="display:flex; gap:8px; margin-bottom:8px;">
+                  <select id="hotspot-target-select" class="input" style="padding:6px 10px; font-size:0.82rem;"></select>
+                  <input id="hotspot-label-input" type="text" class="input" placeholder="Label panah (opsional)" style="padding:6px 10px; font-size:0.82rem;" />
+                </div>
+                <div id="editor-pano-box" class="editor-pano-box">
+                  <div id="editor-pano-canvas" style="width:100%; height:100%;"></div>
+                  <div id="editor-hotspots-layer" style="position:absolute; inset:0; pointer-events:none;"></div>
+                </div>
+                <div id="editor-hotspots-list" style="margin-top:10px; display:flex; flex-direction:column; gap:6px;"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+  </div>
+
+  <div id="toast" class="toast"></div>
+  <script type="module" src="/js/admin-app.js"></script>
+</body>
+</html>

@@ -1,4 +1,4 @@
-import { PanoViewer } from '/js/pano-viewer.js';
+import { PanoViewer } from './pano-viewer.js';
 
 const projectNameEl = document.getElementById('project-name');
 const roomSubtitleEl = document.getElementById('room-subtitle');
@@ -31,10 +31,10 @@ function getRequestedSlug() {
 
 function resolveAssetUrl(path) {
   if (!path) return '';
-  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:') || path.startsWith('/')) {
+  if (path.startsWith('http://') || path.startsWith('https://') || path.startsWith('data:')) {
     return path;
   }
-  return '/' + path;
+  return path.replace(/^\/+/, '');
 }
 
 function renderFloorplanPins() {
@@ -195,7 +195,7 @@ async function init() {
   bindControls();
 
   try {
-    const res = await fetch('/data/projects.json?t=' + Date.now());
+    const res = await fetch('data/projects.json?t=' + Date.now());
     const data = await res.json();
     const projects = data.projects || [];
     const slug = getRequestedSlug();
